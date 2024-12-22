@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.container{
+  background-color: lightcoral;
+  width: 280px;
+  height: 400px;
+  /**padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 18px;**/
+  margin: 10px 10px;
+  position: relative;
+}
+.container div{
+  color: transparent;
+  margin: 10px 25px;
+}
+.please{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  color: white;
+  margin-bottom: 20px;
+}
+.please span{
+  color: rgb(21, 128, 0);
+}
+.username{
+  font-style: bold;
+  color: white;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.text {
+  border: none;
+  border-radius: 4px;
+  padding: 11px 18px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.password{
+  border: none;
+  border-radius: 4px;
+  padding: 11px 18px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.id{
+  color: white;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login{
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 10px 88px;
+  background-color: rgb(30, 128, 0);
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.login:hover { 
+  opacity: 0.4;
+}
+.or{
+  font-weight: bold;
+  color: white;
+}
+.or span{
+  color: white;
+  display: flex;
+  justify-content: column;
+  cursor: pointer;
+  transition: color 0.15s ease,
+    text-decoration 0.15s ease;
+}
+.or span:hover{
+  color: rgb(30, 128, 0);
+  text-decoration: underline;
+}
